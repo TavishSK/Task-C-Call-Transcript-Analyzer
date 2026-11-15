@@ -1,0 +1,55 @@
+
+[
+  {
+    "id": "T01",
+    "transcript": "Agent: Hello, this is Priya from Sunrise Finance. Am I speaking with Anita Rao?\nCaller: Yes, this is Anita.\nAgent: Your instalment of Rs 4,500 was due on 15 October. Can you pay today?\nCaller: I thought I paid it. Can you check reference LN-20931?\nAgent: I see a payment of Rs 4,500 received on 16 October against LN-20931. It is cleared.\nCaller: Okay, thank you."
+  },
+  {
+    "id": "T02",
+    "transcript": "Agent: I'm calling about the renewal of policy HP-558210, which expires on 30 November.\nCaller: Yes, I want to renew.\nAgent: The premium is Rs 12,400. I can renew it now using your saved card.\nCaller: Go ahead.\nAgent: Done. Your policy is now renewed.\nCaller: Great, thanks."
+  },
+  {
+    "id": "T03",
+    "transcript": "Caller: This is the third time I am calling about a wrong charge. I was charged Rs 750 twice.\nAgent: I am sorry. Can I have your account reference?\nCaller: It is AC-44019. My name is Sunil Mehta.\nAgent: I can see both charges but I cannot reverse one from here. A specialist team must review it.\nCaller: So nothing is fixed today? This is unacceptable.\nAgent: I have raised a complaint. You will get an update within 5 working days."
+  },
+  {
+    "id": "T04",
+    "transcript": "Agent: Hello, am I speaking with Meena Iyer? I'm calling about your overdue instalment.\nCaller: I'm driving. Can you call me back after 6 in the evening?\nAgent: Sure, I will call you back at 6 pm.\nCaller: Okay, bye."
+  },
+  {
+    "id": "T05",
+    "transcript": "Agent: Hello, this is Sunrise Finance. I'm calling about Rs 2,300 due on 20 October.\nCaller: Yes, I wanted to ask about the late fee.\nAgent: The late fee is Rs 150. If you pay by\n[call disconnected]"
+  },
+  {
+    "id": "T06",
+    "transcript": "Agent: Hello?\nCaller: ...\nAgent: Hello, can you hear me?\n[silence]\n[call disconnected]"
+  },
+  {
+    "id": "T07",
+    "transcript": "Agent: Mr Khan, your payment of Rs 8,200 for loan LN-70412 has been overdue since 5 October.\nCaller: I will try to arrange it this week, maybe.\nAgent: Can I note a promise to pay by Friday?\nCaller: I can't promise anything. Let's see."
+  },
+  {
+    "id": "T08",
+    "transcript": "Agent: Namaste, Sunrise Finance se Priya bol rahi hoon. Kya main Rajesh Nair se baat kar rahi hoon?\nCaller: Haan ji, boliye.\nAgent: Aapki Rs 3,100 ki kist 12 October ko due thi.\nCaller: Maine kal hi online bhar di hai, reference number TXN-90817 hai.\nAgent: Theek hai, mujhe payment dikh rahi hai. Dhanyavad."
+  },
+  {
+    "id": "T09",
+    "transcript": "Caller: I want to know the renewal cost for my health policy.\nAgent: May I have your policy number?\nCaller: I don't have it with me right now.\nAgent: Without it I cannot find the policy. Please call back with the number.\nCaller: Okay, I'll call back later."
+  },
+  {
+    "id": "T10",
+    "transcript": "Agent: I'm calling about Rs 5,600 due on 8 October on account AC-30177.\nCaller: Yes, I can pay it right now over the phone.\nAgent: Great, I'll take your card details.\nCaller: Actually, wait. My card is in the other room. Never mind, I'll call you back tomorrow.\nAgent: Okay, we'll note that."
+  },
+  {
+    "id": "T11",
+    "transcript": "Caller: My statement shows a Rs 300 fee I didn't expect.\nAgent: Let me check. Can I have your name?\nCaller: Farah Siddiqui.\nAgent: Ms Siddiqui, the fee was applied in error. I have reversed Rs 300 and the reference is RV-2208.\nCaller: Thank you, that's all I needed."
+  },
+  {
+    "id": "T12",
+    "transcript": "Caller: What are your branch timings on Saturday?\nAgent: Our branch is open from 10 am to 2 pm on Saturday.\nCaller: Thanks, that helps."
+  },
+  {
+    "id": "T13",
+    "transcript": "Agent: Mr Dutta, you owe Rs 9,000: Rs 6,000 due on 1 October and Rs 3,000 due on 1 September.\nCaller: I can pay Rs 3,000 today and the rest on 20 November.\nAgent: I'll note a part payment of Rs 3,000 today and Rs 6,000 on 20 November. The reference is PP-5512.\nCaller: Fine."
+  }
+]
