@@ -1,0 +1,159 @@
+
+[
+  {
+    "id": "T01",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": ["Anita Rao"],
+      "amounts": ["Rs 4,500"],
+      "dates": ["15 October", "16 October"],
+      "reference_numbers": ["LN-20931"]
+    },
+    "outcome_evidence": "It is cleared."
+  },
+  {
+    "id": "T02",
+    "intent": "renewal",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": ["Rs 12,400"],
+      "dates": ["30 November"],
+      "reference_numbers": ["HP-558210"]
+    },
+    "outcome_evidence": "Done. Your policy is now renewed."
+  },
+  {
+    "id": "T03",
+    "intent": "complaint",
+    "outcome": "unresolved",
+    "details": {
+      "names": ["Sunil Mehta"],
+      "amounts": ["Rs 750"],
+      "dates": [],
+      "reference_numbers": ["AC-44019"]
+    },
+    "outcome_evidence": "A specialist team must review it."
+  },
+  {
+    "id": "T04",
+    "intent": "callback_request",
+    "outcome": "callback_requested",
+    "details": {
+      "names": ["Meena Iyer"],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "outcome_evidence": "Sure, I will call you back at 6 pm."
+  },
+  {
+    "id": "T05",
+    "intent": "payment_enquiry",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": ["Rs 2,300", "Rs 150"],
+      "dates": ["20 October"],
+      "reference_numbers": []
+    },
+    "outcome_evidence": "[call disconnected]"
+  },
+  {
+    "id": "T06",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "outcome_evidence": "[call disconnected]"
+  },
+  {
+    "id": "T07",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": ["Khan"],
+      "amounts": ["Rs 8,200"],
+      "dates": ["5 October", "Friday"],
+      "reference_numbers": ["LN-70412"]
+    },
+    "outcome_evidence": "I can't promise anything. Let's see."
+  },
+  {
+    "id": "T08",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": ["Rajesh Nair"],
+      "amounts": ["Rs 3,100"],
+      "dates": ["12 October", "kal"],
+      "reference_numbers": ["TXN-90817"]
+    },
+    "outcome_evidence": "Theek hai, mujhe payment dikh rahi hai."
+  },
+  {
+    "id": "T09",
+    "intent": "renewal",
+    "outcome": "unresolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "outcome_evidence": "Okay, I'll call back later."
+  },
+  {
+    "id": "T10",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [],
+      "amounts": ["Rs 5,600"],
+      "dates": ["8 October", "tomorrow"],
+      "reference_numbers": ["AC-30177"]
+    },
+    "outcome_evidence": "Never mind, I'll call you back tomorrow."
+  },
+  {
+    "id": "T11",
+    "intent": "complaint",
+    "outcome": "resolved",
+    "details": {
+      "names": ["Farah Siddiqui"],
+      "amounts": ["Rs 300"],
+      "dates": [],
+      "reference_numbers": ["RV-2208"]
+    },
+    "outcome_evidence": "I have reversed Rs 300 and the reference is RV-2208."
+  },
+  {
+    "id": "T12",
+    "intent": "other",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": ["Saturday"],
+      "reference_numbers": []
+    },
+    "outcome_evidence": "Thanks, that helps."
+  },
+  {
+    "id": "T13",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": ["Dutta"],
+      "amounts": ["Rs 9,000", "Rs 6,000", "Rs 3,000"],
+      "dates": ["1 October", "1 September", "20 November", "today"],
+      "reference_numbers": ["PP-5512"]
+    },
+    "outcome_evidence": "I'll note a part payment of Rs 3,000 today and Rs 6,000 on 20 November. The reference is PP-5512."
+  }
+]
