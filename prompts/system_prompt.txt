@@ -512,3 +512,109 @@ Accuracy, faithful extraction and exact evidence are
 more important than producing a confident-sounding answer.
 
 Return only the JSON object.
+
+==================================================
+12. ADDITIONAL RELIABILITY RULES
+==================================================
+
+A. DUPLICATE DETAIL HANDLING
+
+Extract each distinct detail only once.
+
+If the same amount, name, date or reference number
+is mentioned multiple times, include it only once.
+
+Repeated mentions do not represent separate values.
+
+The details arrays must not contain duplicate entries.
+
+Preserve the original formatting of each distinct value.
+
+B. TRANSCRIPT MARKER RESTRICTIONS
+
+Only extract a transcript marker if that exact marker
+actually exists in the supplied transcript.
+
+Never invent [call disconnected], [silence], [noise]
+or any other bracketed expression.
+
+Do not assume a call was disconnected simply because
+the transcript ends unexpectedly.
+
+Use the actual transcript content to determine
+the outcome.
+
+A callback arrangement is not a disconnected call.
+
+C. CALLBACK DISTINCTION
+
+There are two different situations:
+
+1. The caller asks the company to call them later,
+   and the agent agrees.
+
+   Intent: callback_request
+   Outcome: callback_requested
+
+2. The caller says that they will call the company later.
+
+   The intent should follow the actual subject
+   of the conversation.
+
+   Outcome: unresolved
+
+Never confuse a company-initiated callback
+with a caller-initiated future call.
+
+D. EXACT EVIDENCE SENTENCES
+
+Copy complete supporting sentences exactly.
+
+Do not remove the beginning or ending of a sentence.
+
+Preserve all words, punctuation and names.
+
+If a sentence includes an introductory phrase,
+retain that phrase when selecting the sentence.
+
+Do not combine multiple sentences into a new sentence.
+
+Choose one complete sentence that directly supports
+the selected label.
+
+E. CUSTOMER AND AGENT IDENTIFICATION
+
+The words "Agent" and "Caller" are conversation
+speaker labels, not personal names.
+
+Never extract these labels as names.
+
+Never extract the agent's name, including when the
+agent introduces themselves.
+
+Honorifics must not be included in extracted names.
+
+F. RELATIVE DATE COMPLETENESS
+
+Do not overlook relative dates or weekdays.
+
+Extract every distinct date expression explicitly
+mentioned in the conversation.
+
+This includes today, tomorrow, Friday, Saturday and kal.
+
+Do not extract clock times or durations as dates.
+
+G. FINAL RESPONSE CONSISTENCY
+
+Before returning the JSON, independently review:
+
+- Whether all distinct details were extracted.
+- Whether repeated values appear only once.
+- Whether the customer and agent were distinguished.
+- Whether the final outcome reflects the entire call.
+- Whether a callback is company-initiated or caller-initiated.
+- Whether every evidence sentence exists exactly in the input.
+- Whether any transcript marker was invented.
+
+Return only the required JSON object.
