@@ -1,0 +1,175 @@
+2026-11-16 02:20:51,813 - INFO - T01: successful on attempt 1
+2026-11-16 02:22:10,449 - INFO - T01: successful on attempt 1
+2026-11-16 02:22:14,728 - INFO - T02: successful on attempt 1
+2026-11-16 02:22:20,859 - INFO - T03: successful on attempt 1
+2026-11-16 02:22:25,345 - WARNING - T04: attempt 1 failed: Evidence verification failed for intent: Caller: Can you call me back after 6 in the evening?
+2026-11-16 02:22:25,345 - INFO - T04: retrying...
+2026-11-16 02:22:29,125 - INFO - T04: successful on attempt 2
+2026-11-16 02:22:33,975 - INFO - T05: successful on attempt 1
+2026-11-16 02:22:37,161 - WARNING - T06: attempt 1 failed: Evidence verification failed for outcome: The call ended due to disconnection.
+2026-11-16 02:22:37,161 - INFO - T06: retrying...
+2026-11-16 02:22:40,562 - WARNING - T06: attempt 2 failed: Evidence verification failed for outcome: The call ended due to disconnection.
+2026-11-16 02:22:40,563 - INFO - T06: retrying...
+2026-11-16 02:22:43,844 - WARNING - T06: attempt 3 failed: Evidence verification failed for outcome: The call ended due to disconnection.
+2026-11-16 02:22:43,844 - ERROR - T06: all 3 attempts failed
+2026-11-16 02:22:48,387 - INFO - T07: successful on attempt 1
+2026-11-16 02:22:53,620 - WARNING - T08: attempt 1 failed: Evidence verification failed for intent: The agent confirms the payment for Rs 3,100 and thanks the caller. The reference number TXN-90817 is also mentioned.
+2026-11-16 02:22:53,621 - INFO - T08: retrying...
+2026-11-16 02:22:59,533 - WARNING - T08: attempt 2 failed: Invented or incorrectly copied detail in dates: October 12
+2026-11-16 02:22:59,533 - INFO - T08: retrying...
+2026-11-16 02:23:03,875 - INFO - T08: successful on attempt 3
+2026-11-16 02:23:07,564 - INFO - T09: successful on attempt 1
+2026-11-16 02:23:11,955 - INFO - T10: successful on attempt 1
+2026-11-16 02:23:16,501 - WARNING - T11: attempt 1 failed: Evidence verification failed for intent: The caller inquires about an unexpected fee on their statement and receives a refund.
+2026-11-16 02:23:16,501 - INFO - T11: retrying...
+2026-11-16 02:23:21,219 - INFO - T11: successful on attempt 2
+2026-11-16 02:23:24,693 - INFO - T12: successful on attempt 1
+2026-11-16 02:23:30,566 - INFO - T13: successful on attempt 1
+2026-11-16 02:49:14,495 - INFO - T06: successful on attempt 1
+2026-11-16 02:50:42,228 - INFO - T06: successful on attempt 1
+2026-11-16 20:54:05,919 - WARNING - T06: attempt 1 failed: Transcript markers cannot support intent. Use null when no clear conversational purpose exists.
+2026-11-16 20:54:05,920 - INFO - T06: retrying...
+2026-11-16 20:54:09,337 - INFO - T06: successful on attempt 2
+2026-11-16 20:57:11,232 - INFO - T01: successful on attempt 1
+2026-11-16 20:57:17,473 - WARNING - T02: attempt 1 failed: Evidence verification failed for intent: The caller says 'Yes, I want to renew.'
+2026-11-16 20:57:17,474 - INFO - T02: retrying...
+2026-11-16 20:57:21,846 - INFO - T02: successful on attempt 2
+2026-11-16 20:57:27,884 - WARNING - T03: attempt 1 failed: Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements
+2026-11-16 20:57:27,884 - INFO - T03: retrying...
+2026-11-16 20:57:33,237 - WARNING - T03: attempt 2 failed: Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements
+2026-11-16 20:57:33,237 - INFO - T03: retrying...
+2026-11-16 20:57:38,345 - WARNING - T03: attempt 3 failed: Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements
+2026-11-16 20:57:38,345 - ERROR - T03: all 3 attempts failed
+2026-11-16 20:57:42,532 - WARNING - T04: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 20:57:42,533 - INFO - T04: retrying...
+2026-11-16 20:57:46,640 - WARNING - T04: attempt 2 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 20:57:46,641 - INFO - T04: retrying...
+2026-11-16 20:57:50,574 - WARNING - T04: attempt 3 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 20:57:50,575 - ERROR - T04: all 3 attempts failed
+2026-11-16 20:57:55,445 - INFO - T05: successful on attempt 1
+2026-11-16 20:57:59,175 - WARNING - T06: attempt 1 failed: Transcript markers cannot support intent. Use null when no clear conversational purpose exists.
+2026-11-16 20:57:59,175 - INFO - T06: retrying...
+2026-11-16 20:58:02,627 - INFO - T06: successful on attempt 2
+2026-11-16 20:58:07,987 - INFO - T07: successful on attempt 1
+2026-11-16 20:58:13,979 - INFO - T08: successful on attempt 1
+2026-11-16 20:58:18,683 - WARNING - T09: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 20:58:18,684 - INFO - T09: retrying...
+2026-11-16 20:58:22,490 - WARNING - T09: attempt 2 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 20:58:22,490 - INFO - T09: retrying...
+2026-11-16 20:58:26,167 - WARNING - T09: attempt 3 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 20:58:26,167 - ERROR - T09: all 3 attempts failed
+2026-11-16 20:58:31,980 - INFO - T10: successful on attempt 1
+2026-11-16 20:58:38,776 - WARNING - T11: attempt 1 failed: Evidence verification failed for intent: The caller requested information about an unexpected Rs 300 fee on their statement and received a reversal of the charge with a reference number.
+2026-11-16 20:58:38,777 - INFO - T11: retrying...
+2026-11-16 20:58:44,158 - WARNING - T11: attempt 2 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208
+2026-11-16 20:58:44,158 - INFO - T11: retrying...
+2026-11-16 20:58:49,908 - WARNING - T11: attempt 3 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208
+2026-11-16 20:58:49,909 - ERROR - T11: all 3 attempts failed
+2026-11-16 20:58:54,222 - INFO - T12: successful on attempt 1
+2026-11-16 20:59:01,395 - INFO - T13: successful on attempt 1
+2026-11-16 21:30:29,561 - WARNING - T03: attempt 1 failed: Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements
+2026-11-16 21:30:29,562 - INFO - T03: retrying...
+2026-11-16 21:30:34,898 - WARNING - T03: attempt 2 failed: Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements
+2026-11-16 21:30:34,898 - INFO - T03: retrying...
+2026-11-16 21:30:40,193 - WARNING - T03: attempt 3 failed: Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements
+2026-11-16 21:30:40,196 - ERROR - T03: all 3 attempts failed
+2026-11-16 21:30:44,511 - WARNING - T04: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 21:30:44,511 - INFO - T04: retrying...
+2026-11-16 21:30:48,626 - WARNING - T04: attempt 2 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 21:30:48,627 - INFO - T04: retrying...
+2026-11-16 21:30:52,642 - WARNING - T04: attempt 3 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 21:30:52,642 - ERROR - T04: all 3 attempts failed
+2026-11-16 21:30:56,842 - WARNING - T09: attempt 1 failed: Invented or incorrectly copied detail in dates: today
+2026-11-16 21:30:56,842 - INFO - T09: retrying...
+2026-11-16 21:31:00,733 - WARNING - T09: attempt 2 failed: Invented or incorrectly copied detail in dates: today
+2026-11-16 21:31:00,733 - INFO - T09: retrying...
+2026-11-16 21:31:04,521 - WARNING - T09: attempt 3 failed: Invented or incorrectly copied detail in dates: today
+2026-11-16 21:31:04,522 - ERROR - T09: all 3 attempts failed
+2026-11-16 21:31:11,087 - WARNING - T11: attempt 1 failed: Evidence verification failed for intent: The caller requested information about an unexpected fee on their statement and received a reversal of Rs 300 with a reference number.
+2026-11-16 21:31:11,087 - INFO - T11: retrying...
+2026-11-16 21:31:16,343 - WARNING - T11: attempt 2 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208.
+2026-11-16 21:31:16,344 - INFO - T11: retrying...
+2026-11-16 21:31:21,949 - WARNING - T11: attempt 3 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208
+2026-11-16 21:31:21,949 - ERROR - T11: all 3 attempts failed
+2026-11-16 21:59:36,529 - INFO - T03: successful on attempt 1
+2026-11-16 21:59:40,817 - WARNING - T04: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 21:59:40,817 - INFO - T04: retrying...
+2026-11-16 21:59:44,893 - WARNING - T04: attempt 2 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 21:59:44,894 - INFO - T04: retrying...
+2026-11-16 21:59:48,833 - WARNING - T04: attempt 3 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-16 21:59:48,833 - ERROR - T04: all 3 attempts failed
+2026-11-16 21:59:52,974 - WARNING - T09: attempt 1 failed: Invented or incorrectly copied detail in dates: today
+2026-11-16 21:59:52,974 - INFO - T09: retrying...
+2026-11-16 21:59:56,867 - WARNING - T09: attempt 2 failed: Invented or incorrectly copied detail in dates: today
+2026-11-16 21:59:56,868 - INFO - T09: retrying...
+2026-11-16 22:00:00,633 - WARNING - T09: attempt 3 failed: Invented or incorrectly copied detail in dates: today
+2026-11-16 22:00:00,633 - ERROR - T09: all 3 attempts failed
+2026-11-16 22:00:07,057 - WARNING - T11: attempt 1 failed: Evidence verification failed for intent: The caller requested information about an unexpected fee on their statement and received a reversal of Rs 300 with a reference number.
+2026-11-16 22:00:07,057 - INFO - T11: retrying...
+2026-11-16 22:00:12,265 - WARNING - T11: attempt 2 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208.
+2026-11-16 22:00:12,266 - INFO - T11: retrying...
+2026-11-16 22:00:17,826 - WARNING - T11: attempt 3 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208
+2026-11-16 22:00:17,827 - ERROR - T11: all 3 attempts failed
+2026-11-17 00:16:52,659 - WARNING - T03: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:16:52,660 - INFO - T03: retrying...
+2026-11-17 00:16:58,885 - INFO - T03: successful on attempt 2
+2026-11-17 00:17:10,780 - WARNING - T04: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:17:10,781 - INFO - T04: retrying...
+2026-11-17 00:17:14,879 - WARNING - T04: attempt 2 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:17:14,880 - INFO - T04: retrying...
+2026-11-17 00:17:18,841 - WARNING - T04: attempt 3 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:17:18,841 - ERROR - T04: all 3 attempts failed
+2026-11-17 00:17:23,632 - WARNING - T09: attempt 1 failed: Evidence verification failed for outcome: [caller says they will call back later]
+2026-11-17 00:17:23,633 - INFO - T09: retrying...
+2026-11-17 00:17:27,653 - WARNING - T09: attempt 2 failed: Evidence verification failed for outcome: [caller says they will call back later]
+2026-11-17 00:17:27,654 - INFO - T09: retrying...
+2026-11-17 00:17:31,553 - WARNING - T09: attempt 3 failed: Evidence verification failed for outcome: [caller says they will call back later]
+2026-11-17 00:17:31,554 - ERROR - T09: all 3 attempts failed
+2026-11-17 00:17:37,511 - WARNING - T11: attempt 1 failed: Evidence verification failed for intent: The caller requested information about an unexpected fee on their statement. The agent confirmed that the fee was applied in error and reversed it, providing a reference number.
+2026-11-17 00:17:37,511 - INFO - T11: retrying...
+2026-11-17 00:17:43,231 - WARNING - T11: attempt 2 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208.
+2026-11-17 00:17:43,232 - INFO - T11: retrying...
+2026-11-17 00:17:56,419 - WARNING - T11: attempt 3 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208
+2026-11-17 00:17:56,420 - ERROR - T11: all 3 attempts failed
+2026-11-17 00:42:59,613 - INFO - T01: successful on attempt 1
+2026-11-17 00:43:13,435 - WARNING - T02: attempt 1 failed: Evidence verification failed for intent: The agent confirms renewal of the policy HP-558210 and payment using saved card.
+2026-11-17 00:43:13,436 - INFO - T02: retrying...
+2026-11-17 00:43:18,174 - INFO - T02: successful on attempt 2
+2026-11-17 00:43:24,436 - WARNING - T03: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:43:24,437 - INFO - T03: retrying...
+2026-11-17 00:43:30,407 - INFO - T03: successful on attempt 2
+2026-11-17 00:43:42,434 - WARNING - T04: attempt 1 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:43:42,435 - INFO - T04: retrying...
+2026-11-17 00:43:46,823 - WARNING - T04: attempt 2 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:43:46,823 - INFO - T04: retrying...
+2026-11-17 00:43:51,140 - WARNING - T04: attempt 3 failed: Evidence verification failed for outcome: [call disconnected]
+2026-11-17 00:43:51,142 - ERROR - T04: all 3 attempts failed
+2026-11-17 00:43:56,707 - INFO - T05: successful on attempt 1
+2026-11-17 00:44:00,416 - INFO - T06: successful on attempt 1
+2026-11-17 00:44:05,868 - INFO - T07: successful on attempt 1
+2026-11-17 00:44:13,495 - WARNING - T08: attempt 1 failed: Evidence verification failed for intent: The agent confirms a payment of Rs 3,100 due on October 12 and provides the reference number TXN-90817.
+2026-11-17 00:44:13,496 - INFO - T08: retrying...
+2026-11-17 00:44:28,451 - WARNING - T08: attempt 2 failed: Evidence verification failed for intent: The agent confirms a payment of Rs 3,100 due on October 12 and provides the reference number TXN-90817.
+2026-11-17 00:44:28,452 - INFO - T08: retrying...
+2026-11-17 00:44:43,217 - WARNING - T08: attempt 3 failed: Evidence verification failed for intent: The agent confirms a payment of Rs 3,100 due on October 12 and provides the reference number TXN-90817.
+2026-11-17 00:44:43,217 - ERROR - T08: all 3 attempts failed
+2026-11-17 00:44:55,746 - WARNING - T09: attempt 1 failed: Evidence verification failed for outcome: [caller says they will call back later]
+2026-11-17 00:44:55,747 - INFO - T09: retrying...
+2026-11-17 00:44:59,825 - WARNING - T09: attempt 2 failed: Evidence verification failed for outcome: [caller says they will call back later]
+2026-11-17 00:44:59,825 - INFO - T09: retrying...
+2026-11-17 00:45:03,770 - WARNING - T09: attempt 3 failed: Evidence verification failed for outcome: [caller says they will call back later]
+2026-11-17 00:45:03,771 - ERROR - T09: all 3 attempts failed
+2026-11-17 00:45:10,177 - INFO - T10: successful on attempt 1
+2026-11-17 00:45:16,179 - WARNING - T11: attempt 1 failed: Evidence verification failed for intent: The caller requested information about an unexpected fee on their statement. The agent confirmed that the fee was applied in error and reversed it, providing a reference number.
+2026-11-17 00:45:16,180 - INFO - T11: retrying...
+2026-11-17 00:45:21,937 - WARNING - T11: attempt 2 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208.
+2026-11-17 00:45:21,937 - INFO - T11: retrying...
+2026-11-17 00:45:35,148 - WARNING - T11: attempt 3 failed: Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208
+2026-11-17 00:45:35,149 - ERROR - T11: all 3 attempts failed
+2026-11-17 00:45:38,964 - INFO - T12: successful on attempt 1
+2026-11-17 00:45:45,951 - WARNING - T13: attempt 1 failed: Evidence verification failed for intent: I can pay Rs 3,000 today and the rest on 20 November. The reference is PP-5512
+2026-11-17 00:45:45,952 - INFO - T13: retrying...
+2026-11-17 00:45:59,643 - WARNING - T13: attempt 2 failed: Evidence verification failed for intent: I can pay Rs 3,000 today and the rest on 20 November. The reference is PP-5512
+2026-11-17 00:45:59,644 - INFO - T13: retrying...
+2026-11-17 00:46:13,343 - WARNING - T13: attempt 3 failed: Evidence verification failed for intent: I can pay Rs 3,000 today and the rest on 20 November. The reference is PP-5512
+2026-11-17 00:46:13,344 - ERROR - T13: all 3 attempts failed

@@ -1,0 +1,72 @@
+[
+  {
+    "summary": "Caller complains about being charged Rs 750 twice, which they believe is a mistake. The agent informs that reversing one charge requires a specialist team review and updates will be provided within 5 working days.",
+    "intent": "complaint",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Sunil Mehta"
+      ],
+      "amounts": [
+        "Rs 750"
+      ],
+      "dates": [],
+      "reference_numbers": [
+        "AC-44019"
+      ]
+    },
+    "next_action": "Raise a complaint and provide an update within 5 working days.",
+    "evidence": {
+      "intent": "I have raised a complaint. You will get an update within 5 working days.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  }
+]

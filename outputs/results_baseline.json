@@ -1,0 +1,273 @@
+[
+  {
+    "summary": "The caller inquires about their payment for an instalment and asks to check the reference number.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Anita Rao"
+      ],
+      "amounts": [
+        "Rs 4,500"
+      ],
+      "dates": [
+        "16 October",
+        "15 October"
+      ],
+      "reference_numbers": [
+        "LN-20931"
+      ]
+    },
+    "next_action": "Inform Anita that her payment was received and cleared.",
+    "evidence": {
+      "intent": "I see a payment of Rs 4,500 received on 16 October against LN-20931. It is cleared.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller wants to renew their insurance policy and the agent confirms the renewal with a new premium amount.",
+    "intent": "renewal",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 12,400"
+      ],
+      "dates": [
+        "30 November"
+      ],
+      "reference_numbers": [
+        "HP-558210"
+      ]
+    },
+    "next_action": "End the call as the policy has been successfully renewed.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller complains about being charged Rs 750 twice and asks for a refund, but the agent informs that reversing one charge requires a specialist team's review and raises a complaint on behalf of the caller.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Sunil Mehta"
+      ],
+      "amounts": [
+        "Rs 750"
+      ],
+      "dates": [],
+      "reference_numbers": [
+        "AC-44019"
+      ]
+    },
+    "next_action": "Raise a formal complaint and inform the caller of expected update within 5 working days.",
+    "evidence": {
+      "intent": "I have raised a complaint. You will get an update within 5 working days.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller requests a callback from the agent.",
+    "intent": "callback_request",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [
+        "6 in the evening"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "Inform the caller that their request has been noted and a callback will be made.",
+    "evidence": {
+      "intent": null,
+      "outcome": "Sure, I will call you back at 6 pm."
+    }
+  },
+  {
+    "summary": "The caller inquired about a late fee for an outstanding payment of Rs 2,300 due on October 20.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 150",
+        "Rs 2,300"
+      ],
+      "dates": [
+        "20 October"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "Contact the caller to schedule a payment and discuss the late fee.",
+    "evidence": {
+      "intent": "Caller: Yes, I wanted to ask about the late fee.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The agent is reminding the caller about an overdue loan payment and asks for a commitment.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Mr Khan"
+      ],
+      "amounts": [
+        "Rs 8,200"
+      ],
+      "dates": [
+        "5 October"
+      ],
+      "reference_numbers": [
+        "LN-70412"
+      ]
+    },
+    "next_action": "Ask for a specific date and time commitment from the caller.",
+    "evidence": {
+      "intent": "Can I note a promise to pay by Friday?",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Agent confirms receipt of payment for a customer's insurance policy.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 3,100"
+      ],
+      "dates": [],
+      "reference_numbers": [
+        "TXN-90817"
+      ]
+    },
+    "next_action": "Agent should confirm receipt of payment and update the system.",
+    "evidence": {
+      "intent": "Theek hai, mujhe payment dikh rahi hai. Dhanyavad.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller wants to know the renewal cost for their health policy but does not have the policy number.",
+    "intent": "renewal",
+    "outcome": "unresolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Ask for the caller's policy number and provide the renewal cost information.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller confirms a payment due and requests to be called back.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 5,600"
+      ],
+      "dates": [
+        "8 October"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "Take notes and schedule a callback for the caller.",
+    "evidence": {
+      "intent": "Actually, wait. My card is in the other room. Never mind, I'll call you back tomorrow.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Caller inquires about an unexpected Rs 300 fee on their statement, which is reversed by the agent.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Farah Siddiqui"
+      ],
+      "amounts": [
+        "Rs 300"
+      ],
+      "dates": [],
+      "reference_numbers": [
+        "RV-2208"
+      ]
+    },
+    "next_action": "End the call as the issue is resolved.",
+    "evidence": {
+      "intent": "Caller: My statement shows a Rs 300 fee I didn't expect.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Caller inquires about the agent's branch opening hours on a specific day.",
+    "intent": "other",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [
+        "Saturday"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "End call as the information has been provided.",
+    "evidence": {
+      "intent": null,
+      "outcome": "Caller: Thanks, that helps."
+    }
+  },
+  {
+    "summary": "The caller agrees to pay part of the outstanding amount.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Mr Dutta"
+      ],
+      "amounts": [
+        "Rs 3,000",
+        "Rs 6,000"
+      ],
+      "dates": [
+        "1 October",
+        "1 September",
+        "20 November"
+      ],
+      "reference_numbers": [
+        "PP-5512"
+      ]
+    },
+    "next_action": "Follow up with the caller on payment status.",
+    "evidence": {
+      "intent": "I'll note a part payment of Rs 3,000 today and Rs 6,000 on 20 November. The reference is PP-5512",
+      "outcome": null
+    }
+  }
+]

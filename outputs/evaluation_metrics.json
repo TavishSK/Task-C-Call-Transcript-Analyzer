@@ -1,0 +1,1092 @@
+{
+  "experiments": [
+    {
+      "experiment": "Baseline",
+      "total_transcripts": 13,
+      "classification": {
+        "intent": {
+          "correct": 10,
+          "total": 13,
+          "accuracy_percent": 76.92
+        },
+        "outcome": {
+          "correct": 10,
+          "total": 13,
+          "accuracy_percent": 76.92
+        },
+        "transcripts": [
+          {
+            "id": "T01",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T02",
+            "predicted_intent": "renewal",
+            "expected_intent": "renewal",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T03",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "complaint",
+            "intent_correct": false,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T04",
+            "predicted_intent": "callback_request",
+            "expected_intent": "callback_request",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "callback_requested",
+            "outcome_correct": false,
+            "analysis_failed": false
+          },
+          {
+            "id": "T05",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unclear",
+            "outcome_correct": false,
+            "analysis_failed": false
+          },
+          {
+            "id": "T06",
+            "predicted_intent": "other",
+            "expected_intent": "other",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unclear",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T07",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T08",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T09",
+            "predicted_intent": "renewal",
+            "expected_intent": "renewal",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T10",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T11",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "complaint",
+            "intent_correct": false,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T12",
+            "predicted_intent": "other",
+            "expected_intent": "other",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T13",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          }
+        ]
+      },
+      "details": {
+        "names": {
+          "correct": 3,
+          "missed": 4,
+          "invented": 2
+        },
+        "amounts": {
+          "correct": 11,
+          "missed": 1,
+          "invented": 0
+        },
+        "dates": {
+          "correct": 10,
+          "missed": 5,
+          "invented": 1
+        },
+        "reference_numbers": {
+          "correct": 7,
+          "missed": 1,
+          "invented": 0
+        },
+        "overall": {
+          "correct": 31,
+          "missed": 11,
+          "invented": 3
+        }
+      },
+      "detail_differences": [
+        {
+          "id": "T04",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Meena Iyer"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T07",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Khan"
+          ],
+          "invented": [
+            "Mr Khan"
+          ]
+        },
+        {
+          "id": "T08",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Rajesh Nair"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Dutta"
+          ],
+          "invented": [
+            "Mr Dutta"
+          ]
+        },
+        {
+          "id": "T13",
+          "category": "amounts",
+          "correct": [
+            "Rs 3,000",
+            "Rs 6,000"
+          ],
+          "missed": [
+            "Rs 9,000"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T04",
+          "category": "dates",
+          "correct": [],
+          "missed": [],
+          "invented": [
+            "6 in the evening"
+          ]
+        },
+        {
+          "id": "T07",
+          "category": "dates",
+          "correct": [
+            "5 October"
+          ],
+          "missed": [
+            "Friday"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T08",
+          "category": "dates",
+          "correct": [],
+          "missed": [
+            "12 October",
+            "kal"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T10",
+          "category": "dates",
+          "correct": [
+            "8 October"
+          ],
+          "missed": [
+            "tomorrow"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "dates",
+          "correct": [
+            "1 October",
+            "1 September",
+            "20 November"
+          ],
+          "missed": [
+            "today"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T10",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "AC-30177"
+          ],
+          "invented": []
+        }
+      ],
+      "evidence": {
+        "exact": 10,
+        "submitted": 10,
+        "exact_share_percent": 100.0,
+        "coverage_percent": 38.46,
+        "total_possible_fields": 26,
+        "errors": []
+      },
+      "failures": {
+        "failed_count": 1,
+        "analysis_failure_rate_percent": 7.69,
+        "json_schema_failure_count": 0,
+        "json_schema_failure_rate_percent": 0.0,
+        "failed_transcripts": [
+          "T06"
+        ],
+        "failure_details": [
+          {
+            "id": "T06",
+            "attempts": 3,
+            "error": "Evidence verification failed for outcome: The call ended due to disconnection."
+          }
+        ]
+      },
+      "performance": {
+        "successful": 12,
+        "failed": 1,
+        "total_retries": 6,
+        "latency_p50_seconds": 5.43,
+        "latency_p95_seconds": 15.489
+      }
+    },
+    {
+      "experiment": "Improved Prompt",
+      "total_transcripts": 13,
+      "classification": {
+        "intent": {
+          "correct": 9,
+          "total": 13,
+          "accuracy_percent": 69.23
+        },
+        "outcome": {
+          "correct": 8,
+          "total": 13,
+          "accuracy_percent": 61.54
+        },
+        "transcripts": [
+          {
+            "id": "T01",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T02",
+            "predicted_intent": "renewal",
+            "expected_intent": "renewal",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T03",
+            "predicted_intent": "other",
+            "expected_intent": "complaint",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unresolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T04",
+            "predicted_intent": "other",
+            "expected_intent": "callback_request",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "callback_requested",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T05",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unclear",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T06",
+            "predicted_intent": "other",
+            "expected_intent": "other",
+            "intent_correct": true,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unclear",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T07",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T08",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T09",
+            "predicted_intent": "other",
+            "expected_intent": "renewal",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unresolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T10",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": false,
+            "analysis_failed": false
+          },
+          {
+            "id": "T11",
+            "predicted_intent": "other",
+            "expected_intent": "complaint",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "resolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T12",
+            "predicted_intent": "other",
+            "expected_intent": "other",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T13",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          }
+        ]
+      },
+      "details": {
+        "names": {
+          "correct": 2,
+          "missed": 5,
+          "invented": 4
+        },
+        "amounts": {
+          "correct": 10,
+          "missed": 2,
+          "invented": 0
+        },
+        "dates": {
+          "correct": 11,
+          "missed": 4,
+          "invented": 0
+        },
+        "reference_numbers": {
+          "correct": 5,
+          "missed": 3,
+          "invented": 0
+        },
+        "overall": {
+          "correct": 28,
+          "missed": 14,
+          "invented": 4
+        }
+      },
+      "detail_differences": [
+        {
+          "id": "T03",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Sunil Mehta"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T04",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Meena Iyer"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T07",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Khan"
+          ],
+          "invented": [
+            "Mr Khan"
+          ]
+        },
+        {
+          "id": "T08",
+          "category": "names",
+          "correct": [
+            "Rajesh Nair"
+          ],
+          "missed": [],
+          "invented": [
+            "Priya"
+          ]
+        },
+        {
+          "id": "T10",
+          "category": "names",
+          "correct": [],
+          "missed": [],
+          "invented": [
+            "Caller"
+          ]
+        },
+        {
+          "id": "T11",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Farah Siddiqui"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Dutta"
+          ],
+          "invented": [
+            "Mr Dutta"
+          ]
+        },
+        {
+          "id": "T03",
+          "category": "amounts",
+          "correct": [],
+          "missed": [
+            "Rs 750"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T11",
+          "category": "amounts",
+          "correct": [],
+          "missed": [
+            "Rs 300"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T07",
+          "category": "dates",
+          "correct": [
+            "5 October"
+          ],
+          "missed": [
+            "Friday"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T08",
+          "category": "dates",
+          "correct": [
+            "12 October"
+          ],
+          "missed": [
+            "kal"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T10",
+          "category": "dates",
+          "correct": [
+            "8 October"
+          ],
+          "missed": [
+            "tomorrow"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "dates",
+          "correct": [
+            "1 October",
+            "1 September",
+            "20 November"
+          ],
+          "missed": [
+            "today"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T02",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "HP-558210"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T03",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "AC-44019"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T11",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "RV-2208"
+          ],
+          "invented": []
+        }
+      ],
+      "evidence": {
+        "exact": 10,
+        "submitted": 10,
+        "exact_share_percent": 100.0,
+        "coverage_percent": 38.46,
+        "total_possible_fields": 26,
+        "errors": []
+      },
+      "failures": {
+        "failed_count": 4,
+        "analysis_failure_rate_percent": 30.77,
+        "json_schema_failure_count": 1,
+        "json_schema_failure_rate_percent": 7.69,
+        "failed_transcripts": [
+          "T03",
+          "T04",
+          "T09",
+          "T11"
+        ],
+        "failure_details": [
+          {
+            "id": "T03",
+            "attempts": 3,
+            "error": "Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements"
+          },
+          {
+            "id": "T04",
+            "attempts": 3,
+            "error": "Evidence verification failed for outcome: [call disconnected]"
+          },
+          {
+            "id": "T09",
+            "attempts": 3,
+            "error": "Evidence verification failed for outcome: [call disconnected]"
+          },
+          {
+            "id": "T11",
+            "attempts": 3,
+            "error": "Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208"
+          }
+        ]
+      },
+      "performance": {
+        "successful": 9,
+        "failed": 4,
+        "total_retries": 10,
+        "latency_p50_seconds": 7.173,
+        "latency_p95_seconds": 17.927
+      }
+    },
+    {
+      "experiment": "Experiment 3",
+      "total_transcripts": 13,
+      "classification": {
+        "intent": {
+          "correct": 8,
+          "total": 13,
+          "accuracy_percent": 61.54
+        },
+        "outcome": {
+          "correct": 6,
+          "total": 13,
+          "accuracy_percent": 46.15
+        },
+        "transcripts": [
+          {
+            "id": "T01",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T02",
+            "predicted_intent": "renewal",
+            "expected_intent": "renewal",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T03",
+            "predicted_intent": "complaint",
+            "expected_intent": "complaint",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T04",
+            "predicted_intent": "other",
+            "expected_intent": "callback_request",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "callback_requested",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T05",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unclear",
+            "outcome_correct": false,
+            "analysis_failed": false
+          },
+          {
+            "id": "T06",
+            "predicted_intent": "other",
+            "expected_intent": "other",
+            "intent_correct": true,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unclear",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T07",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "unresolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T08",
+            "predicted_intent": "other",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "resolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T09",
+            "predicted_intent": "other",
+            "expected_intent": "renewal",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "unresolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T10",
+            "predicted_intent": "payment_enquiry",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "unresolved",
+            "outcome_correct": false,
+            "analysis_failed": false
+          },
+          {
+            "id": "T11",
+            "predicted_intent": "other",
+            "expected_intent": "complaint",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "resolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          },
+          {
+            "id": "T12",
+            "predicted_intent": "other",
+            "expected_intent": "other",
+            "intent_correct": true,
+            "predicted_outcome": "resolved",
+            "expected_outcome": "resolved",
+            "outcome_correct": true,
+            "analysis_failed": false
+          },
+          {
+            "id": "T13",
+            "predicted_intent": "other",
+            "expected_intent": "payment_enquiry",
+            "intent_correct": false,
+            "predicted_outcome": "unclear",
+            "expected_outcome": "resolved",
+            "outcome_correct": false,
+            "analysis_failed": true
+          }
+        ]
+      },
+      "details": {
+        "names": {
+          "correct": 2,
+          "missed": 5,
+          "invented": 1
+        },
+        "amounts": {
+          "correct": 7,
+          "missed": 5,
+          "invented": 0
+        },
+        "dates": {
+          "correct": 7,
+          "missed": 8,
+          "invented": 0
+        },
+        "reference_numbers": {
+          "correct": 5,
+          "missed": 3,
+          "invented": 0
+        },
+        "overall": {
+          "correct": 21,
+          "missed": 21,
+          "invented": 1
+        }
+      },
+      "detail_differences": [
+        {
+          "id": "T04",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Meena Iyer"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T07",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Khan"
+          ],
+          "invented": [
+            "Mr Khan"
+          ]
+        },
+        {
+          "id": "T08",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Rajesh Nair"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T11",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Farah Siddiqui"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "names",
+          "correct": [],
+          "missed": [
+            "Dutta"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T08",
+          "category": "amounts",
+          "correct": [],
+          "missed": [
+            "Rs 3,100"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T11",
+          "category": "amounts",
+          "correct": [],
+          "missed": [
+            "Rs 300"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "amounts",
+          "correct": [],
+          "missed": [
+            "Rs 3,000",
+            "Rs 6,000",
+            "Rs 9,000"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T07",
+          "category": "dates",
+          "correct": [
+            "5 October"
+          ],
+          "missed": [
+            "Friday"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T08",
+          "category": "dates",
+          "correct": [],
+          "missed": [
+            "12 October",
+            "kal"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T10",
+          "category": "dates",
+          "correct": [
+            "8 October"
+          ],
+          "missed": [
+            "tomorrow"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "dates",
+          "correct": [],
+          "missed": [
+            "1 October",
+            "1 September",
+            "20 November",
+            "today"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T08",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "TXN-90817"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T11",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "RV-2208"
+          ],
+          "invented": []
+        },
+        {
+          "id": "T13",
+          "category": "reference_numbers",
+          "correct": [],
+          "missed": [
+            "PP-5512"
+          ],
+          "invented": []
+        }
+      ],
+      "evidence": {
+        "exact": 11,
+        "submitted": 11,
+        "exact_share_percent": 100.0,
+        "coverage_percent": 42.31,
+        "total_possible_fields": 26,
+        "errors": []
+      },
+      "failures": {
+        "failed_count": 5,
+        "analysis_failure_rate_percent": 38.46,
+        "json_schema_failure_count": 0,
+        "json_schema_failure_rate_percent": 0.0,
+        "failed_transcripts": [
+          "T04",
+          "T08",
+          "T09",
+          "T11",
+          "T13"
+        ],
+        "failure_details": [
+          {
+            "id": "T04",
+            "attempts": 3,
+            "error": "Evidence verification failed for outcome: [call disconnected]"
+          },
+          {
+            "id": "T08",
+            "attempts": 3,
+            "error": "Evidence verification failed for intent: The agent confirms a payment of Rs 3,100 due on October 12 and provides the reference number TXN-90817."
+          },
+          {
+            "id": "T09",
+            "attempts": 3,
+            "error": "Evidence verification failed for outcome: [caller says they will call back later]"
+          },
+          {
+            "id": "T11",
+            "attempts": 3,
+            "error": "Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208"
+          },
+          {
+            "id": "T13",
+            "attempts": 3,
+            "error": "Evidence verification failed for intent: I can pay Rs 3,000 today and the rest on 20 November. The reference is PP-5512"
+          }
+        ]
+      },
+      "performance": {
+        "successful": 8,
+        "failed": 5,
+        "total_retries": 12,
+        "latency_p50_seconds": 16.992,
+        "latency_p95_seconds": 37.348
+      }
+    }
+  ]
+}

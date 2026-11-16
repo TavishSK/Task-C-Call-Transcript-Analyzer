@@ -1,0 +1,72 @@
+[
+  {
+    "summary": "The caller complains about being charged Rs 750 twice and asks for the charges to be reversed, but the agent informs that reversing one charge cannot be done from this platform and a specialist team must review it. The caller expresses dissatisfaction and says nothing is fixed today.",
+    "intent": "complaint",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Sunil Mehta"
+      ],
+      "amounts": [
+        "Rs 750"
+      ],
+      "dates": [],
+      "reference_numbers": [
+        "AC-44019"
+      ]
+    },
+    "next_action": "Raise a complaint and inform the caller that they will get an update within 5 working days.",
+    "evidence": {
+      "intent": "I have raised a complaint. You will get an update within 5 working days.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "model": "qwen2.5:3b",
+  "total_transcripts": 13,
+  "successful": 8,
+  "failed": 5,
+  "total_retries": 12,
+  "timeout_seconds": 120,
+  "max_retries_per_transcript": 2,
+  "latency_p50_seconds": 16.992,
+  "latency_p95_seconds": 37.348
+}

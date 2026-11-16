@@ -1,0 +1,18 @@
+[
+  {
+    "summary": "Call ended due to disconnection with no clear purpose.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review the incomplete call and arrange appropriate follow-up if required.",
+    "evidence": {
+      "intent": null,
+      "outcome": "[call disconnected]"
+    }
+  }
+]

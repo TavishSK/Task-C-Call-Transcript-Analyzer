@@ -1,0 +1,252 @@
+[
+  {
+    "summary": "The caller inquires about an overdue instalment and confirms it was paid by checking the reference number.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Anita Rao"
+      ],
+      "amounts": [
+        "Rs 4,500"
+      ],
+      "dates": [
+        "16 October",
+        "15 October"
+      ],
+      "reference_numbers": [
+        "LN-20931"
+      ]
+    },
+    "next_action": "No further action required as the payment is confirmed.",
+    "evidence": {
+      "intent": "I see a payment of Rs 4,500 received on 16 October against LN-20931. It is cleared.",
+      "outcome": "I see a payment of Rs 4,500 received on 16 October against LN-20931. It is cleared."
+    }
+  },
+  {
+    "summary": "The caller requests to renew their policy, which is confirmed by the agent with a successful renewal.",
+    "intent": "renewal",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 12,400"
+      ],
+      "dates": [
+        "30 November"
+      ],
+      "reference_numbers": [
+        "HP-558210"
+      ]
+    },
+    "next_action": "No further action is required as the policy has been successfully renewed.",
+    "evidence": {
+      "intent": "Done. Your policy is now renewed.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Caller complains about being charged Rs 750 twice, which they believe is a mistake. The agent informs that reversing one charge requires a specialist team review and updates will be provided within 5 working days.",
+    "intent": "complaint",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Sunil Mehta"
+      ],
+      "amounts": [
+        "Rs 750"
+      ],
+      "dates": [],
+      "reference_numbers": [
+        "AC-44019"
+      ]
+    },
+    "next_action": "Raise a complaint and provide an update within 5 working days.",
+    "evidence": {
+      "intent": "I have raised a complaint. You will get an update within 5 working days.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller inquired about a late fee for an outstanding payment of Rs 2,300 due on 20 October.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 150",
+        "Rs 2,300"
+      ],
+      "dates": [
+        "20 October"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "Follow up with the caller to resolve the payment issue.",
+    "evidence": {
+      "intent": "Caller: Yes, I wanted to ask about the late fee.",
+      "outcome": "[call disconnected]"
+    }
+  },
+  {
+    "summary": "The call ended due to disconnection with no meaningful conversation.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review the incomplete call and arrange appropriate follow-up if required.",
+    "evidence": {
+      "intent": null,
+      "outcome": "[call disconnected]"
+    }
+  },
+  {
+    "summary": "The agent reminded the caller about an overdue loan payment and asked for a commitment, but the caller could not make a promise.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Mr Khan"
+      ],
+      "amounts": [
+        "Rs 8,200"
+      ],
+      "dates": [
+        "5 October"
+      ],
+      "reference_numbers": [
+        "LN-70412"
+      ]
+    },
+    "next_action": "Follow up with the caller to see if they can make a payment by Friday.",
+    "evidence": {
+      "intent": "I can't promise anything. Let's see.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller confirms a payment of Rs 5,600 due on 8 October for account AC-30177 and agrees to be called back the next day.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 5,600"
+      ],
+      "dates": [
+        "8 October"
+      ],
+      "reference_numbers": [
+        "AC-30177"
+      ]
+    },
+    "next_action": "Make a note of the caller's request to be called back tomorrow.",
+    "evidence": {
+      "intent": "Caller: Actually, wait. My card is in the other room. Never mind, I'll call you back tomorrow.",
+      "outcome": "Agent: Okay, we'll note that."
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Caller inquires about the agent's branch opening hours on a specific day and receives information.",
+    "intent": "other",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [
+        "Saturday"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "End the call as the inquiry has been resolved.",
+    "evidence": {
+      "intent": null,
+      "outcome": "Caller: Thanks, that helps."
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  }
+]

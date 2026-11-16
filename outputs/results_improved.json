@@ -1,0 +1,267 @@
+[
+  {
+    "summary": "The caller confirms they paid the instalment and asks to check a reference number. The agent verifies the payment and confirms it was processed correctly.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Anita Rao"
+      ],
+      "amounts": [
+        "Rs 4,500"
+      ],
+      "dates": [
+        "16 October",
+        "15 October"
+      ],
+      "reference_numbers": [
+        "LN-20931"
+      ]
+    },
+    "next_action": "No further action required. The payment is confirmed.",
+    "evidence": {
+      "intent": null,
+      "outcome": "I see a payment of Rs 4,500 received on 16 October against LN-20931. It is cleared."
+    }
+  },
+  {
+    "summary": "The agent confirms renewal of a policy with premium Rs 12,400 using saved card.",
+    "intent": "renewal",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 12,400"
+      ],
+      "dates": [
+        "30 November"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "No further action required.",
+    "evidence": {
+      "intent": "Yes, I want to renew.",
+      "outcome": "Done. Your policy is now renewed."
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The agent called to inform the caller of a late fee due on 20 October and ended with a call disconnection.",
+    "intent": "payment_enquiry",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [
+        "Rs 150",
+        "Rs 2,300"
+      ],
+      "dates": [
+        "20 October"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "Review the call and determine if a follow-up is needed.",
+    "evidence": {
+      "intent": null,
+      "outcome": "[call disconnected]"
+    }
+  },
+  {
+    "summary": "Call ended due to disconnection with no clear purpose.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review the incomplete call and arrange appropriate follow-up if required.",
+    "evidence": {
+      "intent": null,
+      "outcome": "[call disconnected]"
+    }
+  },
+  {
+    "summary": "The agent reminded the caller about an overdue loan payment and asked for a commitment, but the caller could not make a promise.",
+    "intent": "payment_enquiry",
+    "outcome": "unresolved",
+    "details": {
+      "names": [
+        "Mr Khan"
+      ],
+      "amounts": [
+        "Rs 8,200"
+      ],
+      "dates": [
+        "5 October"
+      ],
+      "reference_numbers": [
+        "LN-70412"
+      ]
+    },
+    "next_action": "Follow up with the caller to see if they can make a payment by Friday.",
+    "evidence": {
+      "intent": "I can't promise anything. Let's see.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The agent confirms a payment of Rs 3,100 due on October 12 and the caller provides the reference number TXN-90817.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Priya",
+        "Rajesh Nair"
+      ],
+      "amounts": [
+        "Rs 3,100"
+      ],
+      "dates": [
+        "12 October"
+      ],
+      "reference_numbers": [
+        "TXN-90817"
+      ]
+    },
+    "next_action": "No further action required as the payment has been confirmed.",
+    "evidence": {
+      "intent": null,
+      "outcome": "Theek hai, mujhe payment dikh rahi hai."
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller confirms a payment of Rs 5,600 due on 8 October for account AC-30177 and agrees to provide card details. The caller then requests to be called back the next day.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Caller"
+      ],
+      "amounts": [
+        "Rs 5,600"
+      ],
+      "dates": [
+        "8 October"
+      ],
+      "reference_numbers": [
+        "AC-30177"
+      ]
+    },
+    "next_action": "Note the caller's request to be called back and arrange a follow-up call.",
+    "evidence": {
+      "intent": "Okay, we'll note that.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Analysis failed; manual review is required.",
+    "intent": "other",
+    "outcome": "unclear",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [],
+      "reference_numbers": []
+    },
+    "next_action": "Review this transcript manually; automated analysis did not complete.",
+    "evidence": {
+      "intent": null,
+      "outcome": null
+    }
+  },
+  {
+    "summary": "Caller inquires about the agent's branch opening hours on a specific day and receives information.",
+    "intent": "other",
+    "outcome": "resolved",
+    "details": {
+      "names": [],
+      "amounts": [],
+      "dates": [
+        "Saturday"
+      ],
+      "reference_numbers": []
+    },
+    "next_action": "End the call as the inquiry has been resolved.",
+    "evidence": {
+      "intent": "Our branch is open from 10 am to 2 pm on Saturday.",
+      "outcome": null
+    }
+  },
+  {
+    "summary": "The caller agrees to pay Rs 3,000 today and the remaining amount by 20 November.",
+    "intent": "payment_enquiry",
+    "outcome": "resolved",
+    "details": {
+      "names": [
+        "Mr Dutta"
+      ],
+      "amounts": [
+        "Rs 9,000",
+        "Rs 6,000",
+        "Rs 3,000"
+      ],
+      "dates": [
+        "1 October",
+        "1 September",
+        "20 November"
+      ],
+      "reference_numbers": [
+        "PP-5512"
+      ]
+    },
+    "next_action": "Follow up with Mr Dutta to confirm the payment details and schedule.",
+    "evidence": {
+      "intent": "I'll note a part payment of Rs 3,000 today and Rs 6,000 on 20 November. The reference is PP-5512",
+      "outcome": null
+    }
+  }
+]

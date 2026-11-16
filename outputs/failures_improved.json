@@ -1,0 +1,22 @@
+[
+  {
+    "id": "T03",
+    "attempts": 3,
+    "error": "Schema validation failed: ['Rs 750', 'Rs 750'] has non-unique elements"
+  },
+  {
+    "id": "T04",
+    "attempts": 3,
+    "error": "Evidence verification failed for outcome: [call disconnected]"
+  },
+  {
+    "id": "T09",
+    "attempts": 3,
+    "error": "Evidence verification failed for outcome: [call disconnected]"
+  },
+  {
+    "id": "T11",
+    "attempts": 3,
+    "error": "Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208"
+  }
+]

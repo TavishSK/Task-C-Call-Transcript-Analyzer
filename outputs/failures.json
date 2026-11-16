@@ -1,0 +1,27 @@
+[
+  {
+    "id": "T04",
+    "attempts": 3,
+    "error": "Evidence verification failed for outcome: [call disconnected]"
+  },
+  {
+    "id": "T08",
+    "attempts": 3,
+    "error": "Evidence verification failed for intent: The agent confirms a payment of Rs 3,100 due on October 12 and provides the reference number TXN-90817."
+  },
+  {
+    "id": "T09",
+    "attempts": 3,
+    "error": "Evidence verification failed for outcome: [caller says they will call back later]"
+  },
+  {
+    "id": "T11",
+    "attempts": 3,
+    "error": "Evidence verification failed for intent: The fee was applied in error. I have reversed Rs 300 and the reference is RV-2208"
+  },
+  {
+    "id": "T13",
+    "attempts": 3,
+    "error": "Evidence verification failed for intent: I can pay Rs 3,000 today and the rest on 20 November. The reference is PP-5512"
+  }
+]
