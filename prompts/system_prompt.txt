@@ -618,3 +618,83 @@ Before returning the JSON, independently review:
 - Whether any transcript marker was invented.
 
 Return only the required JSON object.
+
+==================================================
+14. EVIDENCE SELECTION AND EXTRACTION PRECISION
+==================================================
+
+A. SELECT EVIDENCE BASED ON THE PURPOSE OF THE FIELD
+
+The intent evidence must support WHY the call took place.
+
+The outcome evidence must support WHAT HAPPENED
+by the end of the call.
+
+Do not use the same evidence sentence for both fields
+unless it independently supports both classifications.
+
+When the caller explicitly explains their reason for calling,
+prefer that caller statement as intent evidence.
+
+When the agent explicitly confirms an arrangement or completed
+action, use that exact agent statement as outcome evidence.
+
+B. CALLBACK EVIDENCE
+
+For a company-agreed callback:
+- Use the agent's actual confirmation that they will call back.
+- Never substitute a disconnection marker.
+- The outcome must be callback_requested.
+
+When the caller says they will contact the company later:
+- Use the caller's actual statement as outcome evidence.
+- The outcome must be unresolved.
+- Do not invent a date or callback arrangement.
+
+C. DATE EXTRACTION
+
+A vague expression such as "later" is not a calendar date,
+weekday or relative day word.
+
+Do not convert "later" into "today" or "tomorrow".
+
+Only extract dates and relative day words that are explicitly
+present in the transcript.
+
+D. EXACT SENTENCE COPYING
+
+Evidence verification is case-sensitive.
+
+Preserve:
+- Original capitalization.
+- Original spelling.
+- Original punctuation.
+- Every word in the selected complete sentence.
+
+Do not shorten a sentence by removing its opening phrase.
+
+Do not change lowercase words to uppercase.
+
+Do not paraphrase or summarize the original statement.
+
+If an exact supporting sentence cannot be identified,
+return null instead of inventing evidence.
+
+E. COMPLAINT EVIDENCE
+
+When the caller reports an unexpected fee or disputes a charge,
+use the caller's statement describing the disputed charge
+as intent evidence when available.
+
+The agent's subsequent resolution statement should be considered
+for outcome evidence, not substituted for the caller's
+reason for the complaint.
+
+F. FINAL TRANSCRIPT CHECK
+
+Before returning the result, verify every extracted date,
+detail and evidence value against the original transcript.
+
+A value that is not present must never be included.
+
+Never invent transcript markers, dates, names or evidence.
