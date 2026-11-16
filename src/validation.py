@@ -199,7 +199,51 @@ def parse_json(raw_output):
 
 
 # ==================================================
-# 6. SCHEMA VALIDATION
+# 6. DUPLICATE DETAIL REMOVAL
+# ==================================================
+
+def deduplicate_details(data):
+    """
+    Remove duplicate extracted details while preserving
+    their original order and exact formatting.
+
+    Example:
+    ["Rs 750", "Rs 750"]
+
+    Becomes:
+    ["Rs 750"]
+
+    Only identical duplicate values are removed.
+    No values are invented, translated or modified.
+    """
+
+    details = data.get("details")
+
+    if not isinstance(details, dict):
+        return
+
+    categories = [
+        "names",
+        "amounts",
+        "dates",
+        "reference_numbers"
+    ]
+
+    for category in categories:
+
+        values = details.get(category)
+
+        if (
+            isinstance(values, list)
+            and all(isinstance(value, str) for value in values)
+        ):
+            details[category] = list(
+                dict.fromkeys(values)
+            )
+
+
+# ==================================================
+# 7. SCHEMA VALIDATION
 # ==================================================
 
 def validate_schema(data):
@@ -221,7 +265,7 @@ def validate_schema(data):
 
 
 # ==================================================
-# 7. DETAIL VERIFICATION
+# 8. DETAIL VERIFICATION
 # ==================================================
 
 def validate_details(data, transcript):
@@ -252,7 +296,7 @@ def validate_details(data, transcript):
 
 
 # ==================================================
-# 8. EVIDENCE VERIFICATION
+# 9. EVIDENCE VERIFICATION
 # ==================================================
 
 def validate_evidence(data, transcript):
@@ -261,8 +305,8 @@ def validate_evidence(data, transcript):
 
     Intent and outcome evidence are checked separately.
 
-    Transcript markers such as [call disconnected]
-    may support an outcome but cannot establish intent.
+    Transcript markers can support an outcome but
+    cannot establish the intent of a conversation.
     """
 
     evidence_fields = [
@@ -286,7 +330,7 @@ def validate_evidence(data, transcript):
                 f"{evidence_type}: {evidence_sentence}"
             )
 
-        # Special rule for intent evidence.
+        # Transcript markers cannot support intent.
         if (
             evidence_type == "intent"
             and is_transcript_marker(evidence_sentence)
@@ -300,7 +344,7 @@ def validate_evidence(data, transcript):
 
 
 # ==================================================
-# 9. MAIN VALIDATION FUNCTION
+# 10. MAIN VALIDATION FUNCTION
 # ==================================================
 
 def parse_and_validate(raw_output, transcript):
@@ -308,10 +352,11 @@ def parse_and_validate(raw_output, transcript):
     Complete validation pipeline.
 
     Step 1: Parse JSON.
-    Step 2: Validate JSON schema.
-    Step 3: Verify extracted details.
-    Step 4: Verify evidence word for word.
-    Step 5: Return validated data.
+    Step 2: Remove duplicate extracted details.
+    Step 3: Validate JSON schema.
+    Step 4: Verify extracted details.
+    Step 5: Verify evidence word for word.
+    Step 6: Return validated data.
     """
 
     if not isinstance(transcript, str):
@@ -320,23 +365,26 @@ def parse_and_validate(raw_output, transcript):
             "Transcript must be a string."
         )
 
-    # Step 1: Parse JSON
+    # Step 1: Parse JSON.
     data = parse_json(raw_output)
 
-    # Step 2: Validate structure and labels
+    # Step 2: Remove duplicate details.
+    deduplicate_details(data)
+
+    # Step 3: Validate structure and labels.
     validate_schema(data)
 
-    # Step 3: Verify all extracted details
+    # Step 4: Verify extracted details.
     validate_details(
         data,
         transcript
     )
 
-    # Step 4: Verify evidence
+    # Step 5: Verify exact evidence.
     validate_evidence(
         data,
         transcript
     )
 
-    # Step 5: Return validated result
+    # Step 6: Return validated result.
     return data
